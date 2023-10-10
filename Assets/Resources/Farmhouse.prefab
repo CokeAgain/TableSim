@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2834680803038756965}
   - component: {fileID: 2834680803038756964}
   m_Layer: 6
-  m_Name: Shelled Farmhouse
+  m_Name: Farmhouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
