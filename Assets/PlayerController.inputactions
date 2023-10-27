@@ -103,6 +103,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "OnFocus",
+                    "type": "Button",
+                    "id": "472413cd-da6b-479e-9bee-8bc705422fdc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -186,7 +195,7 @@
                 {
                     "name": "negative",
                     "id": "3c7cb07d-7261-42cd-a0c7-cd196ed08f6a",
-                    "path": "<Keyboard>/leftArrow",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -197,7 +206,7 @@
                 {
                     "name": "positive",
                     "id": "4367b44c-969e-4992-a397-27468fca1eba",
-                    "path": "<Keyboard>/rightArrow",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -219,7 +228,7 @@
                 {
                     "name": "negative",
                     "id": "212f1d0a-4e4a-4b2d-87cd-b72883133db3",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -230,7 +239,7 @@
                 {
                     "name": "positive",
                     "id": "c2a7471f-723c-4168-bda2-353917350a91",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -402,6 +411,17 @@
                     "action": "OnSelectGroup",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "17e5b20a-94b9-48fe-9aca-c3c2c581f1e9",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnFocus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
